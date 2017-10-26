@@ -1,0 +1,242 @@
+#at-plus-container:hover {
+    width: 70px;
+    height: 70px;
+    background: url(assets/images/atplus_green.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    background-color: #0B0B9C;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    /* Old Firefox */
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, background-image 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, background-image 1s 0.5s;
+}
+#at-plus-container {
+    margin-top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    /* Old Firefox */
+    background: url(assets/images/atplus_white.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    /* Safari */
+    background-origin: content-box;
+    background-color: #6EB3BD;
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, background-image 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, background-image 1s 0.5s;
+}
+#info-bar {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+}
+
+#at-plus-container:hover #info-bar {
+    opacity: 1;
+    display: block;
+    -webkit-transform: translate(-45px, -170px);
+            transform: translate(-45px, -170px);
+    background-color: #909199;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+}
+
+.info {
+    display: inline;
+    padding: 10px;
+}
+
+.info img {
+    vertical-align: middle;
+}
+
+.info span {
+    padding-left: 5px;
+}
+
+.page {
+    color: white;
+}
+
+.user span {
+    font-size: 20px;
+}
+
+.comment span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mine span {
+    color: #079e6e;
+    font-weight: bold;
+}
+
+.posted {
+    padding: 0px;
+    display: inline;
+    float: left;
+}
+
+.like {
+    padding: 0px;
+    display: inline;
+    float: left;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.control-ring-container li {
+    display: block;
+}
+
+.mask {
+    opacity: 0;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    background: url(assets/images/mask.png);
+    background-color: #909199;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.history {
+    opacity: 0;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    background: url(assets/images/history.png);
+    background-color: #909199;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.message {
+    opacity: 0;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    background: url(assets/images/message.png);
+    background-color: #909199;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.setting {
+    opacity: 0;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    background: url(assets/images/setting.png);
+    background-color: #909199;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sign {
+    opacity: 0;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    background: url(assets/images/signin.png);
+    background-color: #909199;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#at-plus-container:hover .button {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+}
+
+.button {
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+}
+
+.unread {
+    -webkit-transition: margin 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: margin 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: margin 1s 0.5s, transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s;
+    transition: margin 1s 0.5s, transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+}
+
+#at-plus-container:hover .mask {
+    -webkit-transform: translate(-120px, -185px);
+            transform: translate(-120px, -185px);
+}
+
+#at-plus-container:hover .history {
+    -webkit-transform: translate(-120px, -170px);
+            transform: translate(-120px, -170px);
+}
+
+#at-plus-container:hover .message {
+    -webkit-transform: translate(-80px, -170px);
+            transform: translate(-80px, -170px);
+}
+
+#at-plus-container:hover .setting {
+    -webkit-transform: translate(-20px, -210px);
+            transform: translate(-20px, -210px);
+}
+
+#at-plus-container:hover .sign {
+    -webkit-transform: translate(40px, -280px);
+            transform: translate(40px, -280px);
+}
+
+.sign:active {
+    background: url(assets/images/signout.png);
+    background-color: #909199;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#at-plus-container:hover .message .unread {
+    display: block;
+    background-color: red;
+    width: 15px;
+    height: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+    -webkit-transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s;
+    transition: transform 1s 0.5s, background-color 1s 0.5s, width 1s 0.5s, height 1s 0.5s, border-radius 1s 0.5s, opacity 1s 0.5s, -webkit-transform 1s 0.5s;
+}
